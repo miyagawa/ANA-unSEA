@@ -1,0 +1,1 @@
+Turns out there's a setting for this under: 会員専用機能一覧 - 予約基本情報の登録・変更 - 予約関連情報 - 区間.
