@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "ANA un-Seattle",
+  "description": "Change ANA.co.jp departure airport to somewhere not SEA",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "https://www.ana.co.jp/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.ana.co.jp/asw/wws/us/j/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
