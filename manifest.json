@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ANA un-Seattle",
   "description": "Change ANA.co.jp departure airport to somewhere not SEA",
-  "version": "1.0",
+  "version": "1.1",
   "permissions": [
     "tabs",
     "https://www.ana.co.jp/*"
