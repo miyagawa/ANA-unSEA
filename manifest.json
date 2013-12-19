@@ -10,7 +10,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.ana.co.jp/asw/wws/us/j/*"],
-      "js": ["myscript.js"]
+      "js": ["myscript.js"],
+      "run_at": "document_end"
     }
   ]
 }
